@@ -1,6 +1,6 @@
 -- ## Config Fazendo Tibia ## --
 
-IP = "127.0.0.1" -- troque o ip do servidor aqui | 84.247.130.40
+IP = "84.247.130.40" -- troque o ip do servidor aqui 
 VERSION = "860" -- 860 com sprites do 12x
 g_app.setName("WoDBRK") -- Titulo do client
 

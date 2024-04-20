@@ -8,7 +8,7 @@ function init()
   background:lower()
 
   clientVersionLabel = background:getChildById('clientVersionLabel')
-  clientVersionLabel:setText('WoDBRK \nAlpha \nV1.3.3 \nG1.2.0')
+  clientVersionLabel:setText('WoDBRK \nAlpha \nV1.3.4 \nG1.2.1')
   
   if not g_game.isOnline() then
     addEvent(function() g_effects.fadeIn(clientVersionLabel, 1500) end)

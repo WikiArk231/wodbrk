@@ -18,7 +18,7 @@ lblInfo= UI.Label("-- [[ BUFF ]] --")
 lblInfo:setColor("green")
 addSeparator()
 addSeparator()
-addTextEdit(" BUFF", storage.buff or "buff magia", function(widget, text)
+addTextEdit(" BUFF", storage.buff or "big regeneration", function(widget, text)
     storage.buff = text
 end)
 
